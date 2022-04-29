@@ -1,0 +1,41 @@
+/* ----------------HELLO------------------
+=========================================== */
+
+.hello {
+    width: 511px;
+    height: 333px;
+    margin-bottom: 246px;
+    padding: 0;
+}
+
+.hello__title {
+    display: inline-block;
+    width: 511px;
+    margin-bottom: -2px;
+    height: 197px;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.hello__subtitle {
+    font-size: 18px;
+    margin-top: 28px;
+    /* display: inline-block; */
+}
+
+.hello__button {
+    display: inline-block;
+    height: 54px;
+    width: 168px;
+    margin-top: 31px;
+    border-radius: 35px;
+    background-color: #F5170E;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hello__button:hover {
+    background-color: #DA0100;
+}

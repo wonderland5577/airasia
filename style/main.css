@@ -1,0 +1,11 @@
+@import url(base.css);
+@import url(about.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(hello.css);
+@import url(news.css);
+@import url(offers.css);
+@import url(paginator.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');

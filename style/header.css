@@ -1,0 +1,87 @@
+/* ----------------HEADER------------------
+=========================================== */
+
+.header__container {
+    width: 1141px;
+    height: 77px;
+    margin-top: 27px;
+    margin-bottom: 92px;
+    margin-left: 390px;
+    margin-right: 390px;
+    position: relative;
+}
+
+/* ----------------LOGO------------------
+=========================================== */
+
+.logo {
+    position: absolute;
+    left:0;
+    top: 0;
+}
+
+/* ----------------MENU------------------
+=========================================== */
+
+.menu {
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    left: 85px;
+    margin-left: 79px;
+    width: 350px;
+    vertical-align: middle;
+}
+
+.menu__list {
+    
+}
+
+.menu__item {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+}
+
+.menu__link:hover {
+    color: #DA0100;
+}
+
+/* ----------------CONTACTS------------------
+=========================================== */
+
+.contacts {
+    display: inline-block;
+    position: absolute;
+    z-index: 100;
+    right:0;
+    top: 0;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contacts__info {
+    font-size: 13px;
+    color: #98A4A8;
+    font-weight: regular;
+    font-style:normal;
+    position: absolute;
+    right: 1px;
+    top: 29px;
+    text-decoration-line: underline;
+}
+
+.contacts__info:hover {
+    color: white;
+    cursor: pointer;
+}

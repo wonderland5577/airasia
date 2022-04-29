@@ -1,0 +1,90 @@
+/* ----------------FOOTER------------------
+=========================================== */
+
+.footer {
+    width: 1141px;
+    margin-left: 390px;
+    position: relative;
+    height: 93px;    
+    display: inline-block;
+    margin-top: 53px;
+    margin-bottom: 58px;
+}
+
+.social-media {
+    display: inline-block;
+    position: absolute;
+    left: 699px;
+    top: 52px;
+}
+
+.social-media__item {
+    display: inline-block;
+    margin-right: 7px;
+    opacity: 40%;
+}
+
+.social-media__item:last-child {
+    margin-right: 0;
+}
+
+.social-media__item:hover {
+        opacity: 100%;
+}
+
+
+
+/* ----------------LOGO------------------
+=========================================== */
+
+.footer__logo {
+    position: absolute;
+    left:0;
+    top: 50px;
+}
+
+/* ----------------MENU------------------
+=========================================== */
+
+.footer__menu {
+    display: inline-block;
+    position: absolute;
+    bottom: 9px;
+    left: 85px;
+    margin-left: 79px;
+}
+
+
+/* ----------------CONTACTS------------------
+=========================================== */
+
+.footer__contacts {
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    margin: 0;
+    justify-content:flex-end;
+}
+
+.contacts__text {
+    font-size: 11px;
+    font-weight: regular;
+    font-style: normal;
+    position: absolute;
+    right:0;
+    bottom: 38px;
+    display: inline-block;
+    color: #9A9A9A;
+}
+
+/* ----------------FOOTER LINE------------------
+=========================================== */
+
+.footer__line {
+    position: absolute;
+    width: 1141px;
+    height: 1px;
+    background-color: #282c2d;
+    top: 0;
+}
